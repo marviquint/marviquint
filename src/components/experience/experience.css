@@ -1,0 +1,126 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div{
+    background: var(--color-primary-variant);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    border: 2px solid var(--color-primary-variant);
+    color: var(--color-white);
+}
+
+body.dark-mode .experience__container > div{
+    border: 2px solid var(--color-bg);
+    background: var(--color-bg);
+}
+
+.experience__container > div:hover{
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    cursor: pointer;
+    color: var(--color-primary-variant);
+}
+
+body.dark-mode .experience__container > div:hover{
+    background: transparent;
+    border: 2px solid var(--color-bg);
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.experience__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience__container > div h3:hover{
+    color: var(--color-primary-variant);
+}
+
+body.dark-mode .experience__container > div h3{
+    color: var(--color-white);
+}
+
+.experience__container > div h5{
+    text-align: center;
+}
+.experience__container > div h5:hover{
+    color: var(--color-primary-variant);
+}
+
+body.dark-mode .experience__container > div h5{
+    color: var(--color-white);
+}
+
+.experience__content{
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon{
+    margin-top: 5px;
+    font-size: xx-large;
+}
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1440px){
+    .experience__container{
+        grid-template-columns: repeat(1fr);
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .experience__content{
+        display: grid;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1024px){
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div{
+        width: 80%;
+        padding:2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content{
+        display: grid;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Media Queries (Small Devices)*/
+@media screen and (max-width: 600px){
+   .experience__container{
+    gap: 1rem;
+   }
+
+   .experience__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+   }
+}
+
+/*Media Queries (Extra Small Devices)*/
+@media screen and (max-width: 300px){
+ 
+ }

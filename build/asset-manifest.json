@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marviquint/static/css/main.fbb3d2dd.css",
+    "main.js": "/marviquint/static/js/main.f9e2563f.js",
+    "static/media/pic.jpeg": "/marviquint/static/media/pic.053b45f54d5932e401da.jpeg",
+    "static/media/myme.png": "/marviquint/static/media/myme.2e5c9e36d109caf41ab2.png",
+    "index.html": "/marviquint/index.html",
+    "main.fbb3d2dd.css.map": "/marviquint/static/css/main.fbb3d2dd.css.map",
+    "main.f9e2563f.js.map": "/marviquint/static/js/main.f9e2563f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbb3d2dd.css",
+    "static/js/main.f9e2563f.js"
+  ]
+}
