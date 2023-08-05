@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/myme.png";
+import ME from "../../assets/MeSablay.jpg";
 import { RiAwardFill } from "react-icons/ri";
 import { GoProject } from "react-icons/go";
 
@@ -31,7 +31,8 @@ const About = () => {
             </article>
           </div>
           <h3 className="description">
-            Hello, I am Marviquint a Software Developer with years of experience in
+            Hello, I am Marviquint a Graduate from Cebu Technological University - Main Campus in the Degree 
+            Bachelor of Science in Information Technology. A Software Developer with years of experience in
             various technologies such as Computer Programming with knowledge of various programming languages, 
             System Integration Architecture, Information Management, Database Management System and a good team player with leadership skills.
             I welcome you to my Portfolio website.
