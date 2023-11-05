@@ -11,7 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5re0ijr', 'template_3ipnqtw', form.current, 'VcOp4jRSXgUsN8i1f')
+    emailjs.sendForm('service_s10mhr8', 'template_ibs3p6e', form.current, 'VcOp4jRSXgUsN8i1f')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -38,13 +38,13 @@ const Contact = () => {
             <BsMessenger className="contact__option-icon"/>
             <h4>Messenger</h4>
             <h5>Marviquint</h5>
-            <a className="btn" href="https://m.me/Marviquint">Send Message</a>
+            <a className="btn" href="https://m.me/Marviquint1437">Send Message</a>
           </article>
           <article className="contact__option">
             <BsInstagram className="contact__option-icon"/>
             <h4>Instagram</h4>
-            <h5>@kin.gold_11</h5>
-            <a className="btn" href="https://ig.me/kin.gold_11">Send DM</a>
+            <h5>@mavsu11</h5>
+            <a className="btn" href="https://ig.me/mavsu11">Send DM</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

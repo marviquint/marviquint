@@ -21,20 +21,19 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <RiAwardFill className="about__icon" />
-              <h3>Experience</h3>
               <h5>Years of Experience</h5>
             </article>
             <article className="about__card">
               <GoProject className="about__icon" />
-              <h3>Projects</h3>
               <h5>Many completed Projects</h5>
             </article>
           </div>
           <h3 className="description">
-            Hello, I am Marviquint a Graduate from Cebu Technological University - Main Campus in the Degree 
+            Hello I am Marviquint, a Graduate from Cebu Technological University - Main Campus in the Degree 
             Bachelor of Science in Information Technology. A Software Developer with years of experience in
             various technologies such as Computer Programming with knowledge of various programming languages, 
             System Integration Architecture, Information Management, Database Management System and a good team player with leadership skills.
+            Currently employed as a Software Engineer Level-1.
             I welcome you to my Portfolio website.
           </h3>
 

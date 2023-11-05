@@ -10,7 +10,7 @@ const Header = ({isDarkMode}) => {
       <div className="container header__container">
         <h3>Hello I'm</h3>
         <h1>Marviquint Bahio</h1>
-        <h3>Software Developer</h3>
+        <h3>Software Engineer</h3>
         <HeaderSocials/>
         <div className="me">
           <img src={ME} alt="Me"/>

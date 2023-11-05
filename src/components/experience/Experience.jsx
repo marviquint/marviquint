@@ -55,7 +55,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>Material UI</h4>
+              <h4>MaterialUI</h4>
               <h5 className="text-light">Basics</h5>
               </div>
             </article>
@@ -152,7 +152,7 @@ const Experience = () => {
               <SiPython className='experience__details-icon'/>
               <div>
               <h4>Python</h4>
-              <h5 className="text-light">Intermediate</h5>
+              <h5 className="text-light">Experienced</h5>
               </div>
             </article>
           </div>
