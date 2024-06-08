@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
-import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Particle from './components/Particle';
 
@@ -14,7 +12,7 @@ const App = () => {
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-    document.body.style.backgroundColor = isDarkMode ? '#082567' : '#F9F6EE';
+    document.body.style.backgroundColor = isDarkMode ? '#222222' : '#F9F6EE';
     document.body.style.color = isDarkMode ? 'white' : '';
   };
 
@@ -36,9 +34,7 @@ const App = () => {
       <div style={{ visibility: isLoadingParticles ? 'hidden' : 'visible' }}>
         <Header isDarkMode={isDarkMode} />
         <Nav toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
-        <About />
         <Experience />
-        <Contact />
         <Footer />
       </div>
     </>

@@ -50,10 +50,10 @@ const Particle = ({isDarkMode}) => {
                 },
                 particles: {
                     color: {
-                        value: isDarkMode ? "#082567" : "#FFFFFF",
+                        value: isDarkMode ? "#121212" : "#FFFFFF",
                     },
                     links: {
-                        color: isDarkMode ? "#082567" : "#FFFFFF",
+                        color: isDarkMode ? "#121212" : "#FFFFFF",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,

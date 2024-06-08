@@ -13,10 +13,10 @@
 :root{
 
     /*Colors*/
-    --color-bg: #5d5df5;
-    --color-bg-variant:#2b2bcc;
-    --color-primary: #4db5ff;
-    --color-primary-variant: #082567;
+    --color-bg: #333333;
+    --color-bg-variant:#808080;
+    --color-primary: #A9A9A9;
+    --color-primary-variant: #222222;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -44,6 +44,7 @@ body{
 body.dark-mode{
     color: var(--color-white);
 }
+
 /*General Styles*/
 
 .container{

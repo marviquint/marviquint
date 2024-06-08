@@ -8,12 +8,11 @@
     background: var(--color-primary-variant);
     padding: 2.5rem 2.5rem;
     border-radius: 2rem;
-    border: 2px solid var(--color-primary-variant);
     color: var(--color-white);
 }
 
 body.dark-mode .experience__container > div{
-    border: 2px solid var(--color-bg);
+    border: 2px solid var(--color-bg-variant);
     background: var(--color-bg);
 }
 
@@ -26,7 +25,7 @@ body.dark-mode .experience__container > div{
 
 body.dark-mode .experience__container > div:hover{
     background: transparent;
-    border: 2px solid var(--color-bg);
+    border: 2px solid var(--color-primary);
     cursor: pointer;
     color: var(--color-white);
 }
