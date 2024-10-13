@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import ME from '../../assets/MeToga.jpg'
+import ME from '../../assets/me-new.jpg'
 
 
 const Header = ({isDarkMode}) => {
@@ -9,7 +9,7 @@ const Header = ({isDarkMode}) => {
       <div id='divHeader' className="container header__container">
         <h3>Hello I'm</h3>
         <h1>Marviquint Bahio</h1>
-        <h3>Software Engineer</h3>
+        <h3>Software Engineer/Developer</h3>
         <div className="me">
           <img src={ME} alt="Me"/>
         </div>
